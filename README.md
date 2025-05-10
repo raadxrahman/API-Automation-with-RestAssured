@@ -51,3 +51,23 @@ The following API functionalities have been automated using Java and the Rest As
 * **Delete Item:** Automation of deleting an item from the item list using its ID, verifying successful deletion through status codes. Negative tests were included for attempting to delete non-existent items.
 
 Each automated test suite includes positive scenarios to verify correct functionality and negative scenarios to ensure the API handles invalid inputs and edge cases appropriately.
+
+## Postman Documentation 
+[Click Here] to Read the Postman Documentation(https://documenter.getpostman.com/view/42655650/2sB2j98pRD)
+
+## Test Cases
+Visit the [link](https://docs.google.com/spreadsheets/d/1SENdAEh4qqdwBK4n68Ux34tyCcaZ-45lJKHrfYT4-cM/edit?usp=sharing) for the detailed test cases covered while automating the website.  
+
+## Allure Reports
+#### 1. Overview 
+![Screenshot 2025-05-10 212919](https://github.com/user-attachments/assets/d728083a-c91d-46a9-894d-5451e26a1583)
+#### 2. Behaviours 
+![Screenshot 2025-05-10 212839](https://github.com/user-attachments/assets/c4e6d865-16d1-46ac-89b6-5106d13d77fc)
+
+##  Author
+
+Mahbubur Rahman
+
+
+
+
