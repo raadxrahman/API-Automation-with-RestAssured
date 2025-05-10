@@ -56,7 +56,7 @@ Each automated test suite includes positive scenarios to verify correct function
 [Click Here](https://documenter.getpostman.com/view/42655650/2sB2j98pRD) to Read the Postman Documentation.
 
 ## Test Cases
-Visit the [link](https://docs.google.com/spreadsheets/d/1SENdAEh4qqdwBK4n68Ux34tyCcaZ-45lJKHrfYT4-cM/edit?usp=sharing) for the detailed test cases covered while automating the website.  
+Visit the [link](https://docs.google.com/spreadsheets/d/1ZaLxORSNe3b9wcLRw8GQN7NyiYhwCymy7r9y-7PsyQ4/edit?usp=sharing) for the detailed test cases covered while automating the website.  
 
 ## Allure Reports
 #### 1. Overview 
