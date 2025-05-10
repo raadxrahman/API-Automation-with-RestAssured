@@ -67,6 +67,8 @@ public class UserTestRunner extends Setup {
 
         Utils.setEnvVar("userPassword", password);
 
+        Assert.assertEquals(res.getStatusCode(), 201);
+
     }
 
     @Test(priority = 2, description = "User Registration Negative Test (Missing Fields)")
@@ -255,9 +257,10 @@ public class UserTestRunner extends Setup {
     @Test(priority = 9, description = "Delete Item Positive Test")
     public void deleteItem(){
 
-        Response responseNew = userController.deleteItem(prop.getProperty("ItemID"));
+        Response res = userController.deleteItem(prop.getProperty("ItemID"));
 
-        System.out.println(responseNew.asString());
+        System.out.println(res.asString());
+        Assert.assertEquals(res.getStatusCode(), 200);
     }
 
 

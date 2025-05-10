@@ -63,7 +63,7 @@ public class AdminTestRunner extends Setup {
 
     }
 
-    @Test(priority = 7, description = "Admin Search User")
+    @Test(priority = 4, description = "Admin Search User")
     public void adminSearchUser(){
 
         Response res = userController.searchUser(prop.getProperty("UserID"));
@@ -72,7 +72,7 @@ public class AdminTestRunner extends Setup {
 
     }
 
-    @Test(priority = 8, description = "Admin Edits User Information")
+    @Test(priority = 5, description = "Admin Edits User Information")
     public void adminEditUser() throws ConfigurationException, org.apache.commons.configuration.ConfigurationException {
 
         String userID = prop.getProperty("UserID");
