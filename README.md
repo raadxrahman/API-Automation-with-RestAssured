@@ -53,7 +53,7 @@ The following API functionalities have been automated using Java and the Rest As
 Each automated test suite includes positive scenarios to verify correct functionality and negative scenarios to ensure the API handles invalid inputs and edge cases appropriately.
 
 ## Postman Documentation 
-[Click Here] to Read the Postman Documentation(https://documenter.getpostman.com/view/42655650/2sB2j98pRD)
+[Click Here](https://documenter.getpostman.com/view/42655650/2sB2j98pRD) to Read the Postman Documentation.
 
 ## Test Cases
 Visit the [link](https://docs.google.com/spreadsheets/d/1SENdAEh4qqdwBK4n68Ux34tyCcaZ-45lJKHrfYT4-cM/edit?usp=sharing) for the detailed test cases covered while automating the website.  
