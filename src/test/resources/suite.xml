@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="DailyFinance Rest-API Testing">
+    <test name="User Test Runner">
+        <classes>
+            <class name="TestRunner.UserTestRunner"/>
+        </classes>
+    </test>
+    <test name="Admin Test Runner">
+        <classes>
+            <class name="TestRunner.AdminTestRunner"/>
+        </classes>
+    </test>
+</suite>

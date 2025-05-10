@@ -78,4 +78,36 @@ public class userController {
                 .when()
                 .delete("/api/costs/"+itemID);
     }
+
+    public Response getUserList(){
+
+        RestAssured.baseURI= prop.getProperty("baseURL");
+
+        return given().contentType("application/json").
+                header("Authorization","Bearer "+prop.getProperty("adminToken"))
+                .when()
+                .get("/api/user/users");
+    }
+
+    public Response searchUser(String id){
+
+        RestAssured.baseURI= prop.getProperty("baseURL");
+
+        return given().contentType("application/json").
+                header("Authorization","Bearer "+prop.getProperty("adminToken"))
+                .when()
+                .get("/api/user/"+id);
+
+    }
+
+    public Response editUserInfo(String userid, UserModel updateModel){
+
+        RestAssured.baseURI= prop.getProperty("baseURL");
+
+        return given().contentType("application/json").body(updateModel)
+                .header("Authorization","Bearer "+ prop.getProperty("adminToken"))
+                .when()
+                .put("/api/user/"+ userid);
+
+    }
 }

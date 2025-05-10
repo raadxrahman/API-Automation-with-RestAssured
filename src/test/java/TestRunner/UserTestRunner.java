@@ -159,7 +159,7 @@ public class UserTestRunner extends Setup {
     }
 
     @Test(priority = 5, description = "User Login Positive Test")
-    public void userLogin() throws ConfigurationException, org.apache.commons.configuration.ConfigurationException {
+    public void userLoginPositive() throws ConfigurationException, org.apache.commons.configuration.ConfigurationException {
 
         UserModel userModel = new UserModel();
         userModel.setEmail(prop.getProperty("userEmail"));
